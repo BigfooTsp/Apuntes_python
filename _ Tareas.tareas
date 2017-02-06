@@ -1,0 +1,21 @@
+[ ] Crear un script que permita (mediante renombrado) el uso de las diferentes versiones 
+	de python en windows
+
+[ ] Crear consola de comandos con python.
+
+[ ] Crear gestor de tareas en Python basado en esta plantilla.
+
+[ ] Crear explorador de archivos.
+
+[ ] mastermind:
+	[ ] Finalizar programa.
+		[ ] pantalla de "perdiste".
+		[ ] reiniciado de Mastrmind (nueva partida)
+	[ ] Mejoras del código.
+		[ ] reducir referencias al mínimo.
+		[ ] volver a 0 las fichas a cada turno.
+	[ ] crear ejecutable.
+
+[ ] Hacerme cliente dropbox para linux.
+
+[ ] que son las variables de entorno.

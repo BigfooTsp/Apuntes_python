@@ -1,0 +1,1 @@
+- sintaxis en gestión de errores
