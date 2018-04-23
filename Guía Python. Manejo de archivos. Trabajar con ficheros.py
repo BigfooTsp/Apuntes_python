@@ -83,3 +83,28 @@
 	archivo.close  # cierra archivo
 
 
+# Ejemplo:
+
+	manejador = open("index.html", "a") # manejador para crear fichero.
+
+	# creamos un archivo html
+	html = "<! DOCTYPE HTML>\n"
+	html += "<html>\n"
+	html += "<head>\n"
+	html += "<title>Hola mundo</title>\n"
+	html += "</head>\n"
+	html += "<body>\n"
+	html += "<h1>Hola Mundo</h1>"
+	html += "</body>\n"
+	html += "</html>\n"
+
+	manejador.write(html) # Escribe el fichero
+
+	manejador.close() # cierra el fichero
+
+	print ("\nDocumento HTML creado con éxito")
+
+VER TAMBIÉN:
+	Módulo glob y fnmatch (para filtrar ficheros).
+	Módulo fileinput (para procesar varios ficheros a la vez).
+

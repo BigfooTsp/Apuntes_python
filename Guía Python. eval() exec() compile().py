@@ -1,7 +1,7 @@
 ''' EVALUAR, EJECUTAR Y COMPILAR CADENAS
 	http://python-para-impacientes.blogspot.com.es/2015/03/evaluar-ejecutar-y-compilar-cadenas.html '''
 
-# 'eval()' evalúa un strin por el tipo de objeto que mejor se adapta a él, si no lo consigue, lanza error.
+# 'eval()' evalúa un string por el tipo de objeto que mejor se adapta a él, si no lo consigue, lanza error.
 	precio = 5
 	cadenas = ['(4+5)**2',
 	           '(1, 2, 3)',

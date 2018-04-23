@@ -55,6 +55,7 @@ Su ventaja es la de poder ser reutilizadas y por eso deben dar soluciones muy co
 # funciones lambda:
 	''' crea funciones en una sola linea '''
 	cuadrado = lambda x: x*x
+	n = cuadrado(2)
 
 # funciones dentro de funciones:
 	''' me llama la atención como se llama a las funciones internas con sis '''

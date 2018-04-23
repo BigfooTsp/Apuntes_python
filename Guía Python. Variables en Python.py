@@ -14,7 +14,14 @@
 	Si tampoco lo encuentra aquí, dará un NameError'''
 
 # Función global
-'''  : Declara una variable para que pueda ser utilizada fuera de su ámbito.'''
+'''  : Declara una variable para que pueda ser utilizada fuera de su ámbito.
+ Una función utiliza una variable si está en un espacio de nombres superior, pero si la
+ renombra, la sobreescribe como local y no afecta a la variable global. Para que la afecte, 
+ se debe informar a la función mediante 'global' de que está utilizando directamente esa 
+ variable global.
+
+'''
+
 
 	km = 10  # se asigna 10 a la variable global km (fuera de la función)
 	def acelerar():  # se define la función acelerar

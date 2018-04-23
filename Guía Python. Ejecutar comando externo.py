@@ -132,3 +132,18 @@ resultado12 = subprocess.Popen(comando12, shell=True, stdout=subprocess.PIPE)
 while resultado12.poll() is None:
     salida12 = resultado12.stdout.readline()
     print(salida12.decode(sys.getdefaultencoding()).rstrip())
+
+
+# Ejecutar programa con argumentos:
+
+import sys
+print (" Argumentos en sys.argv", sys.argv)
+
+'''
+>>> python argumentos.py
+--> ['argumentos.py']
+
+>>> python argumentos.py hola mundo
+--> ['argumentos.py, hola, mundo']
+
+# La consola devuelve una lista con los argumentos.
